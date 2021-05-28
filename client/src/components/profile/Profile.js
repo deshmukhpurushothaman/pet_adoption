@@ -140,13 +140,13 @@ export class Profile extends Component {
           <div className='margin'>
             {user.id === profile.user._id ? (
               <div>
-                <Link onClick={(e) => this.changeProfilePicture()}>
+                {/* <Link onClick={(e) => this.changeProfilePicture()}> */}
                   <img
                     className='profile-photo'
                     alt='profile-photo'
                     src={profile.user.avatar}
                   />
-                </Link>
+                {/* </Link> */}
                 <ProfilePicture
                   change={this.state.change}
                   close={this.changeProfilePicture}

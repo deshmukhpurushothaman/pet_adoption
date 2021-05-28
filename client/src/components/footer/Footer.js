@@ -6,10 +6,9 @@ function Footer() {
     <div class="stickyfooter">
       <footer>
         <div id='f'>
-          ABOUT HELP PRESS API JOBS PRIVACY TERMS LOCATIONS TOP ACCOUNTS
-          HASHTAGS LANGUAGE
+         
         </div>
-        &copy; {new Date().getFullYear()} INSTAGRAM FROM FACEBOOK
+        &copy; {new Date().getFullYear()} Pet Adoption
       </footer>
     </div>
   );

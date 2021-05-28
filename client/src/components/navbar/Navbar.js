@@ -93,7 +93,7 @@ export class Navbar extends Component {
         <div className='container'>
           <Link className='navbar-brand' to=''>
             {/* <img className='logo-navbar' alt='Instagram' src={logo} /> */}
-            <img className='logo-navbar' alt='Instagram' src={logo3} style={{height: 50, width: 50}}/>
+            <img className='logo-navbar' alt='Pet Adoption' src={logo3} style={{height: 50, width: 50}}/>
             
           </Link>
 
